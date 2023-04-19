@@ -236,4 +236,4 @@ function AddShopper() {
   );
 }
 
-export default AddShopper
+export default AddShopper;

@@ -1,0 +1,25 @@
+.app-bg{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    @media screen and (min-width:500px);
+    height: 250vh;
+   /* background: url('./img/bg1.jpg');  */
+  background-image: url('https://images.unsplash.com/photo-1516387938699-a93567ec168e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8OTI4OTEyNXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=420&q=60.jpg'); 
+     background-size:cover; 
+     /* background-color:gainsboro; */
+  }
+  
+  
+  .Registers{
+  
+    /* box-shadow: 0px 8px 32px 0 rgba(179, 147, 147, 0.695); */
+    /* backdrop-filter: blur(2px); */
+    /* padding: 0px 70px 70px 70px; */
+  
+    border-radius: 16px;
+    width: 80%;
+    height:60vh;
+    padding: 30px;
+  
+  }

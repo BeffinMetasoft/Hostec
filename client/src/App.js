@@ -10,6 +10,11 @@ import NewsurveyFromPage from './pages/surveyFormsPages/NewsurveyFromPage';
 import ViewSurveyFormPage from './pages/surveyFormsPages/ViewSurveyFormPage';
 import AddQuestionPage from './pages/questionPages/AddQuestionPage';
 import ViewQuestionPage from './pages/questionPages/ViewQuestionPage';
+import LoginPage from './pages/LoginPages/LoginPage';
+import RegisterPage from './pages/RegisterPages/Register';
+
+
+
 
 function App() {
   return (
@@ -24,7 +29,11 @@ function App() {
         <Route path='/view-surveyForm' element={<ViewSurveyFormPage/>} />
         <Route path='/add-question' element={<AddQuestionPage/>} />
         <Route path='/view-question' element={<ViewQuestionPage/>} />
+        <Route path='/Login' element={<LoginPage/>} />
+
+        <Route path='/Register' element={<RegisterPage/>} />
       </Routes>
+
     </Router>
     
   );

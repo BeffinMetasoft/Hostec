@@ -1,0 +1,19 @@
+.appbg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+   /* background: url('./img/bg1.jpg');  */
+background-image: url('https://images.unsplash.com/photo-1529539795054-3c162aab037a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bG9naW58ZW58MHx8MHx8&w=1000&q=80.jpg');
+    background-size: cover;
+  }
+  .login{
+  
+  
+    background-color:rgba(161, 150, 150, 0.33);
+    box-shadow: 0px 8px 32px 0 rgba(221, 213, 213, 0.695);
+    backdrop-filter: blur(2px);
+    padding: 0px 16px 16px 16px;
+    border-radius: 16px;
+  }
