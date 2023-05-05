@@ -60,12 +60,11 @@ const Mcq = () => {
   }
 
 
-
   const [Button4, setButton4] = useState({
     Button4: "",
 
   })
-  
+
   function handleShow(e) {
     const Button4 = { ...Button4 }
     Button4[e.target.id] = e.target.value
@@ -84,7 +83,6 @@ const Mcq = () => {
     Button6: "",
 
   })
-  
   function handleShow(e) {
     const Button6 = { ...Button6 }
     Button6[e.target.id] = e.target.value
@@ -135,6 +133,7 @@ const Mcq = () => {
     Button10[e.target.id] = e.target.value
     setButton10(Button10)
   }
+
 
   const [Button11, setButton11] = useState({
     Button11: "",
@@ -237,9 +236,6 @@ const Mcq = () => {
   };
 
 
-
-
-  
   const handleCheckbox8Change = (e) => {
     setQuestion8(e.target.checked);
   }
@@ -353,15 +349,9 @@ const Mcq = () => {
   return (
 
   
-    // <Collapse defaultActiveKey={['1']} onChange={onChange}>
-    // <Panel header="This is panel header 1" key="1">
-    //   <p>{text}</p>
-    // </Panel>
-
     <div className="container my-4" style={{ backgroundColor: "#D3D3D3", width: "700px", border: "1px solid #b3b3cc", padding: "10px" }}>
       <div style={{ display: "flex" }}>
-        {/* <input type="checkbox" onChange={handleCheckbox1Change} />
-        */}
+       
       </div>
 
       <Accordion>
@@ -428,7 +418,6 @@ const Mcq = () => {
           </Button>
 
 
-
         </div>
 
         {isButton1 === true ? <div><div style={{ border: "1px solid #b3b3cc", padding: "20px"}}>
@@ -471,7 +460,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+            
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -506,7 +495,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+            
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -549,7 +538,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+     
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -596,7 +585,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -631,7 +620,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+         
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -673,7 +662,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+          
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -712,7 +701,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+       
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -792,7 +781,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -832,7 +821,6 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
