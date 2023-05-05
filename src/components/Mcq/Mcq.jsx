@@ -73,15 +73,12 @@ const Mcq = () => {
   }
   const [Button5, setButton5] = useState({
     Button5: "",
-
   })
-  
   function handleShow(e) {
     const Button5 = { ...Button5 }
     Button5[e.target.id] = e.target.value
     setButton5(Button5)
   }
-
 
   const [Button6, setButton6] = useState({
     Button6: "",
@@ -105,7 +102,6 @@ const Mcq = () => {
     Button7[e.target.id] = e.target.value
     setButton7(Button7)
   }
-
   
   const [Button8, setButton8] = useState({
     Button8: "",
@@ -117,7 +113,6 @@ const Mcq = () => {
     Button8[e.target.id] = e.target.value
     setButton8(Button8)
   }
-
   
   const [Button9, setButton9] = useState({
     Button9: "",
@@ -140,8 +135,6 @@ const Mcq = () => {
     Button10[e.target.id] = e.target.value
     setButton10(Button10)
   }
-
-
 
   const [Button11, setButton11] = useState({
     Button11: "",
@@ -168,7 +161,7 @@ const Mcq = () => {
   }
 
 
-  
+
   const [Button13, setButton13] = useState({
     Button13: "",
 
@@ -192,13 +185,10 @@ const Mcq = () => {
     setButton14(Button14)
   }
 
-  
-
   const onChange = (key) => {
     console.log(key);
   };
   
-   
   
 
 
@@ -227,9 +217,6 @@ const Mcq = () => {
 
 
 
-
-
-
   useEffect(() => {
    
   }, []);
@@ -249,7 +236,9 @@ const Mcq = () => {
     }
   };
 
-  
+
+
+
   
   const handleCheckbox8Change = (e) => {
     setQuestion8(e.target.checked);
