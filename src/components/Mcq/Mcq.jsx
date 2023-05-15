@@ -191,6 +191,8 @@ const Mcq = () => {
   
 
 
+
+
   const [users, setUsers] = useState([]);
 
   const [isQuestion8, setQuestion8] = useState()
@@ -349,7 +351,7 @@ const Mcq = () => {
   return (
 
   
-    <div className="container my-4" style={{ backgroundColor: "#D3D3D3", width: "700px", border: "1px solid #b3b3cc", padding: "10px" }}>
+    <div className="container my-4" style={{ backgroundColor: "#f5f5f0", width: "700px", border: "1px solid #b3b3cc", padding: "10px" }}>
       <div style={{ display: "flex" }}>
        
       </div>
@@ -366,7 +368,7 @@ const Mcq = () => {
         </AccordionSummary>
         <AccordionDetails>
           <h6>Which Hotel Department have you visited? </h6>
-          <>
+        <>
       <MDBCheckbox name='flexCheck' value='' id='flexCheckDefault' label='Check in' />
       <MDBCheckbox name='flexCheck' value='' id='flexCheckChecked' label='Food & Beverage Outlet-Al Mabeet' defaultChecked />
       <MDBCheckbox name='flexCheck' value='' id='flexCheckDefault' label='Food & Beverage Outlet-Hayaakoom' />
@@ -401,12 +403,10 @@ const Mcq = () => {
       </Accordion>
 
 
-
-
       
 
 
-      <div className="container my-4" style={{ backgroundColor: "#D3D3D3", width: "700px", border: "1px solid #b3b3cc", padding: "10px" }}>
+      <div className="container my-4" style={{ backgroundColor: "#f5f5f0", width: "700px", padding: "10px" }}>
         <div style={{ display: "flex" }}>
           {/* <input type="checkbox" onChange={handleCheckbox2Change} /> */}
           <input type="checkbox" /><p>section start</p>
@@ -442,7 +442,7 @@ const Mcq = () => {
               <div style={{ display: "flex" }}>
               </div>
              
-              <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "20px"}}>
+              <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "20px"}}>
                 <div style={{ display: "flex"}} />
 
            
@@ -475,7 +475,7 @@ const Mcq = () => {
               </div>
              
 
-              <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "20px"}}>
+              <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "20px"}}>
                 <div style={{ display: "flex" }} />
 
            
@@ -513,7 +513,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p> Was the guest identity verification done with your Passport Or Id?</p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -556,7 +556,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Outlet Name </p>
                 <textarea id="w3review" name="w3review" rows="1" cols="50" />
@@ -603,7 +603,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Room Assigned </p>
                 <textarea id="w3review" name="w3review" rows="1" cols="50" />
@@ -638,7 +638,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p> Where you asked to pay Advance Deposit for Extras?</p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -680,7 +680,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Have You Received advance Deposit Receipt?  </p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -691,11 +691,9 @@ const Mcq = () => {
   </form>
 </div>
 </AccordionDetails>
-  
+
           
           </form>
-
-
         
           <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
             <div style={{ display: "flex" }} />
@@ -719,7 +717,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Deposit Receipt Number (if applicable)</p>
                 <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -755,7 +753,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p style={{ color: "red" }}>Please Verify Room Charges/Deposit Transaction is recorded in system? </p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -799,7 +797,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Have You Exchanged The Foreign Currency ? </p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -838,7 +836,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Amount and Foreign Currency Used?</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -857,7 +855,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+  
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -875,7 +873,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Were you Provided with a Foreign exchange reciept?</p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -897,7 +895,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+         
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -915,7 +913,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p style={{ color: "red" }}>Please Verify Foreign Currency exchange  Transaction is recorded in system</p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -953,7 +951,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     
     
@@ -990,7 +988,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     
     <p>Check -In Rating</p>
@@ -1066,7 +1064,7 @@ const Mcq = () => {
               </div>
              
 
-              <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "20px" }}>
+              <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "20px" }}>
                 <div style={{ display: "flex" }} />
 
            
@@ -1099,7 +1097,7 @@ const Mcq = () => {
              </div>
             
 
-             <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "20px" }}>
+             <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "20px" }}>
                <div style={{ display: "flex" }} />
 
           
@@ -1138,7 +1136,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "30px" }}>
     <div style={{ display: "flex" }} />
     
     <label for="appt">Time of Visit</label>
@@ -1196,7 +1194,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p> Where you greeted at the outlet within 30 seconds of your arrival?</p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -1238,7 +1236,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Was the outlet Serving  A- la -Carte? </p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -1276,7 +1274,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Served By </p>
                 <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -1309,7 +1307,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Was the Associate Knowledgeable About the menu?  </p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -1349,7 +1347,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Ordered At? </p>
     <input type="time" id="appt" name="appt"
@@ -1390,7 +1388,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Ordered Item/s</p>
                 <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -1426,7 +1424,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Served At? </p>
     <input type="time" id="appt" name="appt"
@@ -1480,7 +1478,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Was a check Presented? </p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -1518,7 +1516,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Were The Ordered Items matching with check? </p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -1562,7 +1560,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>How Did You Pay ?</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -1597,7 +1595,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p style={{ color: "red" }}>Please Verify if the complete check is recorded in system? </p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -1638,7 +1636,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Time Of Payment </p>
     <input type="time" id="appt" name="appt"
@@ -1671,7 +1669,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Check Number (If applicable)</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -1704,7 +1702,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Check Amount (If applicable)</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -1736,7 +1734,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Cash Paid (If applicable)</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -1767,7 +1765,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Did You collect The balance (if applicable)</p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -1808,7 +1806,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Who Handled The Billing and Cashering</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -1847,7 +1845,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     
     
@@ -1884,7 +1882,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     
     <p>Food & Beverage - Tera Secca Rating</p>
@@ -1957,7 +1955,7 @@ const Mcq = () => {
               </div>
              
 
-              <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "20px" }}>
+              <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "20px" }}>
                 <div style={{ display: "flex" }} />
 
            
@@ -1990,7 +1988,7 @@ const Mcq = () => {
              </div>
             
 
-             <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "20px" }}>
+             <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "20px" }}>
                <div style={{ display: "flex" }} />
 
           
@@ -2029,7 +2027,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "30px" }}>
     <div style={{ display: "flex" }} />
     
     <label for="appt">Time of Visit</label>
@@ -2086,7 +2084,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Room Assigned </p>
                 <textarea id="w3review" name="w3review" rows="1" cols="50" />
@@ -2121,7 +2119,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p> Where you greeted at the outlet within 30 seconds of your arrival?</p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -2163,7 +2161,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Was the outlet Serving  A- la -Carte? </p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -2201,7 +2199,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Served By </p>
                 <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -2234,7 +2232,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Was the Associate Knowledgeable About the menu?  </p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -2274,7 +2272,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Ordered At? </p>
     <input type="time" id="appt" name="appt"
@@ -2315,7 +2313,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Ordered Item/s</p>
                 <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -2351,7 +2349,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Served At? </p>
     <input type="time" id="appt" name="appt"
@@ -2405,7 +2403,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Was a check Presented? </p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -2443,7 +2441,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Were The Ordered Items matching with check? </p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -2487,7 +2485,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>How Did You Pay ?</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -2522,7 +2520,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p style={{ color: "red" }}>Please Verify if the complete check is recorded in system? </p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -2563,7 +2561,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Time Of Payment </p>
     <input type="time" id="appt" name="appt"
@@ -2596,7 +2594,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Check Number (If applicable)</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -2629,7 +2627,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Check Amount (If applicable)</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -2661,7 +2659,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Cash Paid (If applicable)</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -2692,7 +2690,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Did You collect The balance (if applicable)</p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -2733,7 +2731,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Who Handled The Billing and Cashering</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -2772,7 +2770,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     
     
@@ -2809,7 +2807,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     
     <p>Food & Beverage -Al Mabeet Rating</p>
@@ -2881,7 +2879,7 @@ const Mcq = () => {
               </div>
              
 
-              <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "20px" }}>
+              <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "20px" }}>
                 <div style={{ display: "flex" }} />
 
            
@@ -2914,7 +2912,7 @@ const Mcq = () => {
              </div>
             
 
-             <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "20px" }}>
+             <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "20px" }}>
                <div style={{ display: "flex" }} />
 
           
@@ -2953,7 +2951,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
     <div style={{ display: "flex" }} />
     
     <label for="appt">Time of Visit</label>
@@ -3010,7 +3008,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Room Assigned </p>
                 <textarea id="w3review" name="w3review" rows="1" cols="50" />
@@ -3045,7 +3043,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p> Where you greeted at the outlet within 30 seconds of your arrival?</p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -3087,7 +3085,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Was the outlet Serving  A- la -Carte? </p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -3125,7 +3123,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Served By </p>
                 <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -3158,7 +3156,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Was the Associate Knowledgeable About the menu?  </p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -3198,7 +3196,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Ordered At? </p>
     <input type="time" id="appt" name="appt"
@@ -3239,7 +3237,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Ordered Item/s</p>
                 <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -3275,7 +3273,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Served At? </p>
     <input type="time" id="appt" name="appt"
@@ -3329,7 +3327,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Was a check Presented? </p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -3367,7 +3365,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Were The Ordered Items matching with check? </p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -3411,7 +3409,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>How Did You Pay ?</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -3446,7 +3444,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p style={{ color: "red" }}>Please Verify if the complete check is recorded in system? </p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -3487,7 +3485,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Time Of Payment </p>
     <input type="time" id="appt" name="appt"
@@ -3520,7 +3518,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Check Number (If applicable)</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -3553,7 +3551,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Check Amount (If applicable)</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -3585,7 +3583,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Cash Paid (If applicable)</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -3616,7 +3614,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Did You collect The balance (if applicable)</p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -3657,7 +3655,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Who Handled The Billing and Cashering</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -3696,7 +3694,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     
     
@@ -3733,7 +3731,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     
     <p>Food & Beverage - Hayakoom Rating</p>
@@ -3804,7 +3802,7 @@ const Mcq = () => {
               </div>
              
 
-              <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "20px" }}>
+              <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "20px" }}>
                 <div style={{ display: "flex" }} />
 
            
@@ -3837,7 +3835,7 @@ const Mcq = () => {
              </div>
             
 
-             <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "20px" }}>
+             <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "20px" }}>
                <div style={{ display: "flex" }} />
 
           
@@ -3876,7 +3874,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
     <div style={{ display: "flex" }} />
     
     <label for="appt">Time of Visit</label>
@@ -3933,7 +3931,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Room Assigned </p>
                 <textarea id="w3review" name="w3review" rows="1" cols="50" />
@@ -3968,7 +3966,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p> Where you greeted at the outlet within 30 seconds of your arrival?</p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -4010,7 +4008,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Was the outlet Serving  A- la -Carte? </p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -4048,7 +4046,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Served By </p>
                 <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -4081,7 +4079,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Was the Associate Knowledgeable About the menu?  </p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -4121,7 +4119,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Ordered At? </p>
     <input type="time" id="appt" name="appt"
@@ -4162,7 +4160,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Ordered Item/s</p>
                 <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -4198,7 +4196,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Served At? </p>
     <input type="time" id="appt" name="appt"
@@ -4252,7 +4250,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Was a check Presented? </p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -4290,7 +4288,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Were The Ordered Items matching with check? </p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -4334,7 +4332,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>How Did You Pay ?</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -4369,7 +4367,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p style={{ color: "red" }}>Please Verify if the complete check is recorded in system? </p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -4410,7 +4408,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Time Of Payment </p>
     <input type="time" id="appt" name="appt"
@@ -4443,7 +4441,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Check Number (If applicable)</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -4476,7 +4474,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Check Amount (If applicable)</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -4508,7 +4506,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Cash Paid (If applicable)</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -4539,7 +4537,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Did You collect The balance (if applicable)</p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -4580,7 +4578,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Who Handled The Billing and Cashering</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -4619,7 +4617,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     
     
@@ -4656,7 +4654,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     
     <p>Food & Beverage - Al Mesayan Rating</p>
@@ -4726,7 +4724,7 @@ const Mcq = () => {
               </div>
              
 
-              <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "20px" }}>
+              <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "20px" }}>
                 <div style={{ display: "flex" }} />
 
            
@@ -4759,7 +4757,7 @@ const Mcq = () => {
              </div>
             
 
-             <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "20px" }}>
+             <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "20px" }}>
                <div style={{ display: "flex" }} />
 
           
@@ -4798,7 +4796,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
     <div style={{ display: "flex" }} />
     
     <label for="appt">Time of Visit</label>
@@ -4855,7 +4853,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Room Assigned </p>
                 <textarea id="w3review" name="w3review" rows="1" cols="50" />
@@ -4890,7 +4888,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p> Where you greeted at the outlet within 30 seconds of your arrival?</p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -4932,7 +4930,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Was the outlet Serving  A- la -Carte? </p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -4970,7 +4968,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Served By </p>
                 <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -5003,7 +5001,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Was the Associate Knowledgeable About the menu?  </p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -5043,7 +5041,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Ordered At? </p>
     <input type="time" id="appt" name="appt"
@@ -5084,7 +5082,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Ordered Item/s</p>
                 <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -5120,7 +5118,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Served At? </p>
     <input type="time" id="appt" name="appt"
@@ -5174,7 +5172,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Was a check Presented? </p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -5212,7 +5210,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Were The Ordered Items matching with check? </p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -5256,7 +5254,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>How Did You Pay ?</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -5291,7 +5289,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p style={{ color: "red" }}>Please Verify if the complete check is recorded in system? </p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -5332,7 +5330,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Time Of Payment </p>
     <input type="time" id="appt" name="appt"
@@ -5365,7 +5363,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Check Number (If applicable)</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -5398,7 +5396,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Check Amount (If applicable)</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -5430,7 +5428,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Cash Paid (If applicable)</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -5461,7 +5459,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Did You collect The balance (if applicable)</p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -5502,7 +5500,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Who Handled The Billing and Cashering</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -5541,7 +5539,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     
     
@@ -5578,7 +5576,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     
     <p>Food & Beverage - Panache Rating</p>
@@ -5651,7 +5649,7 @@ const Mcq = () => {
               </div>
              
 
-              <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "20px" }}>
+              <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "20px" }}>
                 <div style={{ display: "flex" }} />
 
            
@@ -5684,7 +5682,7 @@ const Mcq = () => {
              </div>
             
 
-             <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "20px" }}>
+             <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "20px" }}>
                <div style={{ display: "flex" }} />
 
           
@@ -5723,7 +5721,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
     <div style={{ display: "flex" }} />
     
     <label for="appt">Time of Visit</label>
@@ -5783,7 +5781,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p> Where you greeted at the outlet within 30 seconds of your arrival?</p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -5825,7 +5823,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Was the outlet Serving  A- la -Carte? </p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -5863,7 +5861,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Served By </p>
                 <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -5896,7 +5894,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Was the Associate Knowledgeable About the menu?  </p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -5936,7 +5934,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Ordered At? </p>
     <input type="time" id="appt" name="appt"
@@ -5977,7 +5975,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Ordered Item/s</p>
                 <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -6013,7 +6011,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Served At? </p>
     <input type="time" id="appt" name="appt"
@@ -6067,7 +6065,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Was a check Presented? </p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -6105,7 +6103,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Were The Ordered Items matching with check? </p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -6149,7 +6147,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>How Did You Pay ?</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -6184,7 +6182,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p style={{ color: "red" }}>Please Verify if the complete check is recorded in system? </p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -6225,7 +6223,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Time Of Payment </p>
     <input type="time" id="appt" name="appt"
@@ -6258,7 +6256,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Check Number (If applicable)</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -6291,7 +6289,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Check Amount (If applicable)</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -6323,7 +6321,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Cash Paid (If applicable)</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -6354,7 +6352,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Did You collect The balance (if applicable)</p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -6395,7 +6393,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Who Handled The Billing and Cashering</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -6434,7 +6432,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     
     
@@ -6471,7 +6469,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     
     <p>Food & Beverage - Panache Rating</p>
@@ -6544,7 +6542,7 @@ const Mcq = () => {
                   </div>
                  
     
-                  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "20px" }}>
+                  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "20px" }}>
                     <div style={{ display: "flex" }} />
     
                
@@ -6580,7 +6578,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         
         <label for="appt">Time of Ordering</label>
@@ -6618,7 +6616,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         <p>Name Of Associate who took the Order?</p>
                    <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -6655,7 +6653,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         <p>Item's ordered</p>
                    <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -6692,7 +6690,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         <p>Name of Associate who delivered the Items</p>
                    <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -6739,7 +6737,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
         <div style={{ display: "flex" }} />
         <p>Check Number(if applicable) </p>
                     <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -6770,7 +6768,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
         <div style={{ display: "flex" }} />
         <p>Check Amount(if applicable) </p>
                     <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -6801,7 +6799,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
         <div style={{ display: "flex" }} />
         <p>Cash Paid </p>
                     <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -6841,7 +6839,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
         <div style={{ display: "flex" }} />
         <p>Time of payment? </p>
         <input type="time" id="appt" name="appt"
@@ -6881,7 +6879,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         <p>Did you order additional items at the time of delivery ?</p>
                    <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -6922,7 +6920,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         <p>Did you pay cash for additional items </p>
                    
@@ -6974,7 +6972,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
         <div style={{ display: "flex" }} />
         <p>Check Number(if applicable) </p>
                     <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -7005,7 +7003,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
         <div style={{ display: "flex" }} />
         <p>Check Amount(if applicable) </p>
                     <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -7039,7 +7037,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p style={{ color: "red" }}>Please Verify Room Charges/Deposit Transaction is recorded in system? </p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -7083,7 +7081,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Did you collect the balance (if applicable) </p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -7130,7 +7128,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Who Handled The Billing and Cashering</p>
                 <textarea rows="1" cols="55" name="comments" id="comments" ></textarea>
@@ -7166,7 +7164,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Shopper Comments</p>
                 <textarea rows="2" cols="55" name="comments" id="comments" ></textarea>
@@ -7199,7 +7197,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     
     <p>Room Services Rating</p>
@@ -7275,7 +7273,7 @@ const Mcq = () => {
                   </div>
                  
     
-                  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "20px" }}>
+                  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "20px" }}>
                     <div style={{ display: "flex" }} />
     
                
@@ -7311,7 +7309,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         
         <label for="appt">Time of Availing Services</label>
@@ -7349,7 +7347,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         <p>Type of services Orderd?</p>
                    <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -7386,7 +7384,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         <p>Who provided the services?</p>
                    <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -7423,7 +7421,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         <p>Was a bill presented?</p>
                    <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -7457,7 +7455,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         <p>Cash Paid</p>
                    <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -7508,7 +7506,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
         <div style={{ display: "flex" }} />
         <p>Did You collect the balance(if applicable) </p>
                     <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -7541,7 +7539,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p style={{ color: "red" }}>Please Verify Room Charges/Deposit Transaction is recorded in system? </p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -7588,7 +7586,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Shopper Comments</p>
                 <textarea rows="2" cols="55" name="comments" id="comments" ></textarea>
@@ -7621,7 +7619,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     
     <p>Room Centre Rating</p>
@@ -7697,7 +7695,7 @@ const Mcq = () => {
                   </div>
                  
     
-                  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "20px" }}>
+                  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "20px" }}>
                     <div style={{ display: "flex" }} />
     
                
@@ -7733,7 +7731,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         
         <label for="appt">Time of Availing Services</label>
@@ -7771,7 +7769,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         <p>Items Purchased</p>
                    <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -7808,7 +7806,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         <p>Who provided the services?</p>
                    <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -7845,7 +7843,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         <p>Was a bill presented?</p>
                    <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -7879,7 +7877,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         <p>Cash Paid</p>
                    <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -7931,7 +7929,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
         <div style={{ display: "flex" }} />
         <p>Did You collect the balance(if applicable) </p>
                     <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -7964,7 +7962,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p style={{ color: "red" }}>Please Verify Room Charges/Deposit Transaction is recorded in system? </p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -8011,7 +8009,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Shopper Comments</p>
                 <textarea rows="2" cols="55" name="comments" id="comments" ></textarea>
@@ -8044,7 +8042,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     
     <p>Gift Shop Rating</p>
@@ -8120,7 +8118,7 @@ const Mcq = () => {
                   </div>
                  
     
-                  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "20px" }}>
+                  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "20px" }}>
                     <div style={{ display: "flex" }} />
     
                
@@ -8156,7 +8154,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         
         <label for="appt">Time of Ordering</label>
@@ -8198,7 +8196,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         <p>Was a check presented?</p>
                    <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -8232,7 +8230,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         <p>Cash Paid</p>
                    <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -8284,7 +8282,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
         <div style={{ display: "flex" }} />
         <p>Did You collect the balance(if applicable) </p>
                     <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -8317,7 +8315,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p style={{ color: "red" }}>Please Verify Room Charges/Deposit Transaction is recorded in system? </p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -8363,7 +8361,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Did you leave cash in the cloths </p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -8407,7 +8405,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Were you informed Associate about money? </p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -8449,7 +8447,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p style={{ color: "red" }}>Please Verify if the Money was recorded under Lost & Found? </p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -8493,7 +8491,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Shopper Comments</p>
                 <textarea rows="2" cols="55" name="comments" id="comments" ></textarea>
@@ -8526,7 +8524,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     
     <p>Laundery Services Rating</p>
@@ -8604,7 +8602,7 @@ const Mcq = () => {
                   </div>
                  
     
-                  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "20px" }}>
+                  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "20px" }}>
                     <div style={{ display: "flex" }} />
     
                
@@ -8640,7 +8638,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         
         <label for="appt">Time of Availing Services</label>
@@ -8681,7 +8679,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         <p>Types of Services Ordered</p>
                    <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -8715,7 +8713,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         <p>Who Provided the services </p>
                    <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -8757,7 +8755,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         <p>Was bill presented</p>
         <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -8798,7 +8796,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         <p>Cash Paid</p>
        
@@ -8844,7 +8842,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
         <div style={{ display: "flex" }} />
         <p>Did You collect the balance(if applicable) </p>
                     <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -8877,7 +8875,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p style={{ color: "red" }}>Please Verify Complete Transaction is recorded in system? </p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -8927,7 +8925,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Shopper Comments</p>
                 <textarea rows="2" cols="55" name="comments" id="comments" ></textarea>
@@ -8960,7 +8958,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     
     <p>Health Club Rating</p>
@@ -9036,7 +9034,7 @@ const Mcq = () => {
                   </div>
                  
     
-                  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "20px" }}>
+                  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "20px" }}>
                     <div style={{ display: "flex" }} />
     
                
@@ -9072,7 +9070,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         
         <label for="appt">Time of Availing Services</label>
@@ -9112,7 +9110,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         <p>Types Of Services Ordered</p>
                    <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -9150,7 +9148,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Were You Greeted at the spa with warm smile & Eye Contact</p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -9192,7 +9190,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         <p>Who Provided the Services</p>
                    <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -9238,7 +9236,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Was  the Spa Table is good condition with cleaned & Crisp Line? </p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -9284,7 +9282,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Was  the Towels Provided of Good Condition </p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -9328,7 +9326,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Was a bill Presented </p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -9370,7 +9368,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Did You Collect Balance?</p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -9429,7 +9427,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
         <div style={{ display: "flex" }} />
         <p style={{ color: "red" }}>Please Verify if the Complete Transaction Was Recorded In the System? </p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -9467,7 +9465,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Shopper Comments</p>
                 <textarea rows="2" cols="55" name="comments" id="comments" ></textarea>
@@ -9500,7 +9498,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     
     <p>Spa Rating</p>
@@ -9577,7 +9575,7 @@ const Mcq = () => {
                   </div>
                  
     
-                  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "20px" }}>
+                  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "20px" }}>
                     <div style={{ display: "flex" }} />
     
                
@@ -9613,7 +9611,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         
         <label for="appt">Time of Checkout</label>
@@ -9655,7 +9653,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         <p>Check out Associate</p>
                    <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -9705,7 +9703,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Was information Bill/Folio Presented? </p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -9748,7 +9746,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Did You Recive The final bill</p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -9791,7 +9789,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Folio/Invoice No</p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -9833,7 +9831,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Have You Settled Bill</p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -9874,7 +9872,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p style={{ color: "red" }} >Please Verify if bill Settlement Transaction is recorded in the system?</p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -9917,7 +9915,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p >Were You Informed About Balance due</p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -9961,7 +9959,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p >Have You Made Telephone Call from the Room?</p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -10005,7 +10003,7 @@ const Mcq = () => {
       </div>
     
     
-      <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "30px" }}>
+      <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
         <div style={{ display: "flex" }} />
         <p>Dialled Number,Time of Call & Approximate Duration</p>
                    <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -10039,7 +10037,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Has the Telephone call appeared in the folio/invoice</p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -10085,7 +10083,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p style={{ color: "red" }} >Please Verify ,telephone call transactions is recorded in the system</p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -10127,7 +10125,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Have You Consumed from the minibar?</p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -10170,7 +10168,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Item Consumed And Quantity</p>
     <textarea id="w3review" name="w3review" rows="1" cols="45" />
@@ -10209,7 +10207,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Has the minibar consumption appeared in the folio/invoice</p>
     <div style={{ display: "flex", justifyContent: "end" }}>
@@ -10255,7 +10253,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p style={{ color: "red" }} >Please Verify ,minibar consumption  is recorded in the system</p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -10297,7 +10295,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Was The check out process completed within 5 minutes</p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -10338,7 +10336,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Did The Associate enquires about the stay</p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
@@ -10379,7 +10377,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     
     
@@ -10414,7 +10412,7 @@ const Mcq = () => {
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#D3D3D3", padding: "25px" }}>
+  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     
     <p>Check-Out Rating</p>
