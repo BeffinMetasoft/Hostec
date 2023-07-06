@@ -1,10 +1,10 @@
 import React from 'react'
-import NewSurveyForm from '../../components/surveyForms/newSurveyForm/NewSurveyForm'
+// import NewSurveyForm from '../../components/surveyForms/newSurveyForm/NewSurveyForm'
 
 function NewsurveyFromPage() {
   return (
     <div>
-        <NewSurveyForm/>
+        {/* <NewSurveyForm/> */}
     </div>
   )
 }

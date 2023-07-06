@@ -13,6 +13,8 @@ import ViewQuestionPage from './pages/questionPages/ViewQuestionPage';
 import LoginPage from './pages/LoginPages/LoginPage';
 import RegisterPage from './pages/RegisterPages/Register';
 import McqPages from './pages/McqPages/McqPages';
+import RecordPages from './pages/RecordPages/RecordPages';
+
 // import SurveyPage1 from './pages/SurveyPages1/SurveyPage1';
 
 
@@ -33,6 +35,9 @@ function App() {
         <Route path='/view-question' element={<ViewQuestionPage/>} />
         <Route path='/Login' element={<LoginPage/>} />
         <Route path='/Mcq' element={<McqPages/>} />
+        <Route path='/record' element={<RecordPages/>} />
+        
+        
 
         <Route path='/Register' element={<RegisterPage/>} />
         {/* <Route path='/Survey' element={<SurveyPage1/>} /> */}

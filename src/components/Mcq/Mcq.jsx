@@ -358,7 +358,7 @@ const Mcq = () => {
 
       <Accordion>
         <AccordionSummary
-          // expandIcon={<ExpandMoreIcon />}
+        
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
@@ -406,9 +406,9 @@ const Mcq = () => {
       
 
 
-      <div className="container my-4" style={{ backgroundColor: "#f5f5f0", width: "700px", padding: "10px" }}>
+      <div className="container my-4" >
         <div style={{ display: "flex" }}>
-          {/* <input type="checkbox" onChange={handleCheckbox2Change} /> */}
+        
           <input type="checkbox" /><p>section start</p>
         </div>
 
@@ -420,29 +420,29 @@ const Mcq = () => {
 
         </div>
 
-        {isButton1 === true ? <div><div style={{ border: "1px solid #b3b3cc", padding: "20px"}}>
+        {isButton1 === true ? <div><div style={{}}>
           <div style={{ display: "flex" }}>
           </div>
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "40px" }}>
+          <form className="form w-100">
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+          
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
-            
+
             <input type="checkbox" /><Typography>Question</Typography>
           </AccordionSummary>
 
             <AccordionDetails>
            
-            <div style={{ border: "1px solid #b3b3cc", padding: "10px" }}>
+            <div style={{ padding: "10px" }}>
               <div style={{ display: "flex" }}>
               </div>
              
-              <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "20px"}}>
+              <form className="form w-100" style={{padding: "20px"}}>
                 <div style={{ display: "flex"}} />
 
            
@@ -456,7 +456,7 @@ const Mcq = () => {
           </AccordionDetails>
 
           
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{ padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -470,12 +470,12 @@ const Mcq = () => {
 
             <AccordionDetails>
            
-            <div style={{ border: "1px solid #b3b3cc", padding: "10px" }}>
+            <div style={{ padding: "10px" }}>
               <div style={{ display: "flex" }}>
               </div>
              
 
-              <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "20px"}}>
+              <form className="form w-100">
                 <div style={{ display: "flex" }} />
 
            
@@ -491,7 +491,7 @@ const Mcq = () => {
 
           
           
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" >
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -499,24 +499,22 @@ const Mcq = () => {
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
-            
            
           </AccordionSummary>
 
           <AccordionDetails>
 
-
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"500px" }}>
+<div style={{ padding: "10px",width:"500px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
+  <form className="form w-100" style={{ padding: "25px" }}>
     <div style={{ display: "flex" }} />
-    <p> Was the guest identity verification done with your Passport Or Id?</p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <p style={{fontSize:"14px"}}> Was the guest identity verification done with your Passport or Id?</p>
+    <div style={{  justifyContent: "end" }}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -534,7 +532,7 @@ const Mcq = () => {
 
 
          
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -551,7 +549,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"520px" }}>
+<div style={{  padding: "10px",width:"520px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -581,7 +579,7 @@ const Mcq = () => {
 
 
           
-<form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+<form className="form w-100" style={{ padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -598,7 +596,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{   }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -616,7 +614,7 @@ const Mcq = () => {
 
 
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{ padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -633,15 +631,15 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
+  <form className="form w-100" style={{ padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p> Where you asked to pay Advance Deposit for Extras?</p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <div style={{ display: "flex"}}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -658,7 +656,7 @@ const Mcq = () => {
 
 
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{ padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -675,15 +673,15 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
+  <form className="form w-100" style={{  padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Have You Received advance Deposit Receipt?  </p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <div style={{ display: "flex" }}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -695,7 +693,7 @@ const Mcq = () => {
           
           </form>
         
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -712,7 +710,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{ padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -731,7 +729,7 @@ const Mcq = () => {
 
 
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{ padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -748,14 +746,14 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{ padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
+  <form className="form w-100" style={{  padding: "25px" }}>
     <div style={{ display: "flex" }} />
-    <p style={{ color: "red" }}>Please Verify Room Charges/Deposit Transaction is recorded in system? </p>
+    <p style={{ color: "black" }}>Please Verify Room Charges/Deposit Transaction is recorded in system? </p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
                 <input type="radio" id="html" name="fav_language" value="Yes" />
                 <label for="html">Yes</label>
@@ -765,7 +763,7 @@ const Mcq = () => {
 
   
   <p>Comment</p>
-  <textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
+  <textarea rows="3" cols="50" name="comment" form="usrform"></textarea>
 </div>
 </AccordionDetails>
   
@@ -775,7 +773,7 @@ const Mcq = () => {
 
 
             
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -792,15 +790,15 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
+  <form className="form w-100" style={{  padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Have You Exchanged The Foreign Currency ? </p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <div style={{ display: "flex" }}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -808,14 +806,11 @@ const Mcq = () => {
   </form>
 </div>
 </AccordionDetails>
-  
+
           
           </form>
 
-
-
-
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -831,7 +826,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{ padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -851,7 +846,7 @@ const Mcq = () => {
 
 
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -868,15 +863,15 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
+  <form className="form w-100" style={{ padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Were you Provided with a Foreign exchange reciept?</p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <div style={{ display: "flex"}}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -891,7 +886,7 @@ const Mcq = () => {
 
 
           
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -908,15 +903,15 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" ,width:"600px"}}>
+<div style={{  padding: "10px",width:"550px" ,width:"600px"}}>
   <div style={{ display: "flex" }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
+  <form className="form w-100" style={{  padding: "25px" }}>
     <div style={{ display: "flex" }} />
-    <p style={{ color: "red" }}>Please Verify Foreign Currency exchange  Transaction is recorded in system</p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <p style={{ color: "black" }}>Please Verify Foreign Currency exchange  Transaction is recorded in system</p>
+    <div style={{ display: "flex" }}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -929,7 +924,7 @@ const Mcq = () => {
           </form>
 
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -946,14 +941,12 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" ,width:"600px"}}>
+<div style={{  padding: "10px",width:"550px"}}>
   <div style={{ display: "flex" }}>
   </div>
 
-
   <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
-    
     
     <p>Shopper Comments</p>
                 <textarea id="w3review" name="w3review" rows="2" cols="65" />
@@ -966,7 +959,7 @@ const Mcq = () => {
           </form>
 
           
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -983,7 +976,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" ,width:"600px"}}>
+<div style={{  padding: "10px",width:"550px" ,width:"600px"}}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -996,6 +989,7 @@ const Mcq = () => {
                 <p>Comment:</p>
                 <textarea type="comment" id="name" name="name" required
                   minlength="10" rows="1" cols="60" />
+                   <div style={{ display: "flex" }}></div>
                    <input type="radio" id="html" name="fav_language" value="Yes" />
                 <label for="html">Yes</label>
                 <input type="radio" id="html" name="fav_language" value="No" />
@@ -1023,7 +1017,7 @@ const Mcq = () => {
 
       </div>
 
-      < div style={{ border: "1px solid #b3b3cc", padding: "24px" }}>
+      < div style={{  padding: "24px" }}>
 
         <div style={{ display: "flex" }}>
       
@@ -1041,7 +1035,7 @@ const Mcq = () => {
 
 
 
-        {isButton2 === true ? <div><div style={{ border: "1px solid #b3b3cc", padding: "10px" }}>
+        {isButton2 === true ? <div><div style={{  padding: "10px" }}>
           <div style={{ display: "flex" }}>
           </div>
 
@@ -1059,12 +1053,12 @@ const Mcq = () => {
 
             <AccordionDetails>
            
-            <div style={{ border: "1px solid #b3b3cc", padding: "10px" }}>
+            <div style={{ padding: "10px" }}>
               <div style={{ display: "flex" }}>
               </div>
              
 
-              <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "20px" }}>
+              <form className="form w-100" style={{  padding: "20px" }}>
                 <div style={{ display: "flex" }} />
 
            
@@ -1092,7 +1086,7 @@ const Mcq = () => {
 
           <AccordionDetails>
            
-           <div style={{ border: "1px solid #b3b3cc", padding: "10px" }}>
+           <div style={{  padding: "10px" }}>
              <div style={{ display: "flex" }}>
              </div>
             
@@ -1131,15 +1125,15 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"500px" }}>
+<div style={{  padding: "10px",width:"500px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "30px" }}>
+  <form className="form w-100" style={{padding: "30px" }}>
     <div style={{ display: "flex" }} />
     
-    <label for="appt">Time of Visit</label>
+    <label style={{justifyContent: "end"}}for="appt">Time of Visit</label>
 
 <input type="time" id="appt" name="appt" placeholder="HH:MM"
   min="09:00" max="18:00" required></input>
@@ -1189,15 +1183,15 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{ padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
+  <form className="form w-100" style={{  padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p> Where you greeted at the outlet within 30 seconds of your arrival?</p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <div style={{ display: "flex" }}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -1231,15 +1225,15 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
+  <form className="form w-100" style={{  padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Was the outlet Serving  A- la -Carte? </p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <div style={{ display: "flex"}}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -1269,7 +1263,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -1302,15 +1296,15 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{ padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
+  <form className="form w-100" style={{  padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Was the Associate Knowledgeable About the menu?  </p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <div style={{ display: "flex" }}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -1342,12 +1336,12 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"520px" }}>
+<div style={{  padding: "10px",width:"520px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
+  <form className="form w-100" style={{ padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Ordered At? </p>
     <input type="time" id="appt" name="appt"
@@ -1383,7 +1377,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"520px" }}>
+<div style={{ padding: "10px",width:"520px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -1419,12 +1413,12 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px" ,width:"520px"}}>
+<div style={{ padding: "10px" ,width:"520px"}}>
   <div style={{ display: "flex" }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
+  <form className="form w-100" style={{  padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Served At? </p>
     <input type="time" id="appt" name="appt"
@@ -1473,15 +1467,15 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
+  <form className="form w-100" style={{ padding: "25px" }}>
     <div style={{ display: "flex" }} />
-    <p  >Was a check Presented? </p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <p  >Was a cheack Presented? </p>
+    <div style={{ display: "flex"}}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -1511,15 +1505,15 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
+  <form className="form w-100" style={{ padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Were The Ordered Items matching with check? </p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <div style={{ display: "flex"}}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -1555,7 +1549,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{ padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -1590,15 +1584,15 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{ padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
+  <form className="form w-100" style={{padding: "25px" }}>
     <div style={{ display: "flex" }} />
-    <p style={{ color: "red" }}>Please Verify if the complete check is recorded in system? </p>
-    <div style={{ display: "flex", justifyContent: "end" }}></div>
+    <p style={{ color: "black" }}>Please Verify if the complete check is recorded in system? </p>
+    <div style={{ display: "flex" }}></div>
                 <input type="radio" id="html" name="fav_language" value="Yes" />
                 <label for="html">Yes</label>
                 <input type="radio" id="html" name="fav_language" value="No" />
@@ -1631,12 +1625,12 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
+  <form className="form w-100" style={{ padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Time Of Payment </p>
     <input type="time" id="appt" name="appt"
@@ -1664,7 +1658,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -1697,7 +1691,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -1712,7 +1706,7 @@ const Mcq = () => {
   
           
           </form>
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{ padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -1729,7 +1723,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -1760,15 +1754,15 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{ padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
+  <form className="form w-100" style={{ }}>
     <div style={{ display: "flex" }} />
     <p  >Did You collect The balance (if applicable)</p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <div style={{ display: "flex"}}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -1801,7 +1795,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{}}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -1840,7 +1834,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" ,width:"550px"}}>
+<div style={{  padding: "10px",width:"550px" ,width:"550px"}}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -1877,7 +1871,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" ,width:"550px"}}>
+<div style={{ padding: "10px"}}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -1917,7 +1911,7 @@ const Mcq = () => {
       </div>
 
 
-      < div style={{ border: "1px solid #b3b3cc", padding: "24px" }}>
+      < div style={{  padding: "24px" }}>
 
         <div style={{ display: "flex" }}>
           {/* <input type="checkbox" onChange={handleCheckbox5Change} /> */}
@@ -1932,11 +1926,11 @@ const Mcq = () => {
           </Button>
         </div>
 
-        {isButton3 === true ? <div><div style={{ border: "1px solid #b3b3cc", padding: "10px" }}>
+        {isButton3 === true ? <div><div style={{ padding: "10px" }}>
           <div style={{ display: "flex" }}>
           </div>
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{ padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -1950,12 +1944,12 @@ const Mcq = () => {
 
             <AccordionDetails>
            
-            <div style={{ border: "1px solid #b3b3cc", padding: "10px" }}>
+            <div style={{ padding: "10px" }}>
               <div style={{ display: "flex" }}>
               </div>
              
 
-              <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "20px" }}>
+              <form className="form w-100" style={{ padding: "20px" }}>
                 <div style={{ display: "flex" }} />
 
            
@@ -1969,7 +1963,7 @@ const Mcq = () => {
           </AccordionDetails>
 
           
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -1983,12 +1977,12 @@ const Mcq = () => {
 
           <AccordionDetails>
            
-           <div style={{ border: "1px solid #b3b3cc", padding: "10px" }}>
+           <div style={{  padding: "10px" }}>
              <div style={{ display: "flex" }}>
              </div>
             
 
-             <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "20px" }}>
+             <form className="form w-100" style={{  padding: "20px" }}>
                <div style={{ display: "flex" }} />
 
           
@@ -2005,7 +1999,7 @@ const Mcq = () => {
 
           
           
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -2022,12 +2016,12 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"500px" }}>
+<div style={{ padding: "10px",width:"500px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "30px" }}>
+  <form className="form w-100" style={{  padding: "30px" }}>
     <div style={{ display: "flex" }} />
     
     <label for="appt">Time of Visit</label>
@@ -2061,8 +2055,11 @@ const Mcq = () => {
 
 
 
-          
-{/* <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+
+
+
+
+          <form className="form w-100" style={{ padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -2079,50 +2076,15 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{}}>
   <div style={{ display: "flex" }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
-    <div style={{ display: "flex" }} />
-    <p>Room Assigned </p>
-                <textarea id="w3review" name="w3review" rows="1" cols="50" />
-                </form>
-</div>
-</AccordionDetails>
-  
-          
-          </form> */}
-
-
-
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
-            <div style={{ display: "flex" }} />
-
-            <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel1a-content"
-            id="panel1a-header"
-          >
-            
-           
-          </AccordionSummary>
-
-          <AccordionDetails>
-
-
-<Typography> <input type="checkbox" />Question</Typography>
-
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
-  <div style={{ display: "flex" }}>
-  </div>
-
-
-  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
+  <form className="form w-100" style={{  padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p> Where you greeted at the outlet within 30 seconds of your arrival?</p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <div style={{ display: "flex"}}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -2139,7 +2101,7 @@ const Mcq = () => {
 
 
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{ padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -2156,15 +2118,15 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
+  <form className="form w-100" style={{  padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Was the outlet Serving  A- la -Carte? </p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <div style={{ display: "flex"}}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -2177,7 +2139,7 @@ const Mcq = () => {
           </form>
 
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{ padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -2194,7 +2156,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{ padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -2210,7 +2172,7 @@ const Mcq = () => {
 
   
 
-<form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+<form className="form w-100" style={{ padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -2227,15 +2189,15 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
+  <form className="form w-100" style={{}}>
     <div style={{ display: "flex" }} />
     <p>Was the Associate Knowledgeable About the menu?  </p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <div style={{ display: "flex"}}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -2250,7 +2212,7 @@ const Mcq = () => {
 
 
   
-<form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+<form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -2267,12 +2229,12 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"520px" }}>
+<div style={{  padding: "10px",width:"520px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
+  <form className="form w-100" style={{}}>
     <div style={{ display: "flex" }} />
     <p>Ordered At? </p>
     <input type="time" id="appt" name="appt"
@@ -2291,7 +2253,7 @@ const Mcq = () => {
 
 
           
-<form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+<form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -2308,7 +2270,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"520px" }}>
+<div style={{ }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -2327,7 +2289,7 @@ const Mcq = () => {
 
 
   
-<form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+<form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -2344,12 +2306,12 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px" ,width:"520px"}}>
+<div style={{ }}>
   <div style={{ display: "flex" }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
+  <form className="form w-100" style={{  }}>
     <div style={{ display: "flex" }} />
     <p>Served At? </p>
     <input type="time" id="appt" name="appt"
@@ -2381,7 +2343,7 @@ const Mcq = () => {
 
 
             
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -2398,15 +2360,15 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
+  <form className="form w-100" style={{  padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Was a check Presented? </p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <div style={{ display: "flex"}}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -2419,7 +2381,7 @@ const Mcq = () => {
           </form>
           
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{ padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -2436,7 +2398,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -2444,7 +2406,7 @@ const Mcq = () => {
   <form className="form w-100" style={{ backgroundColor: "#f5f5f0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Were The Ordered Items matching with check? </p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <div style={{ display: "flex"}}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -2463,7 +2425,7 @@ const Mcq = () => {
 
 
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{ padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -2480,7 +2442,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{ padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -2498,7 +2460,7 @@ const Mcq = () => {
 
 
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -2515,15 +2477,15 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{ padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
 
   <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
-    <p style={{ color: "red" }}>Please Verify if the complete check is recorded in system? </p>
-    <div style={{ display: "flex", justifyContent: "end" }}></div>
+    <p style={{ color: "black" }}>Please Verify if the complete check is recorded in system? </p>
+    <div style={{ display: "flex"}}></div>
                 <input type="radio" id="html" name="fav_language" value="Yes" />
                 <label for="html">Yes</label>
                 <input type="radio" id="html" name="fav_language" value="No" />
@@ -2539,7 +2501,7 @@ const Mcq = () => {
           
           </form>
           
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -2556,7 +2518,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -2572,7 +2534,7 @@ const Mcq = () => {
   
           
           </form>
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -2589,7 +2551,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -2605,7 +2567,7 @@ const Mcq = () => {
           
           </form>
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -2622,7 +2584,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{ padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -2637,7 +2599,7 @@ const Mcq = () => {
   
           
           </form>
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -2654,7 +2616,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -2668,7 +2630,7 @@ const Mcq = () => {
 </AccordionDetails>
   
   
-<form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+<form className="form w-100" style={{ padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -2685,7 +2647,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -2693,7 +2655,7 @@ const Mcq = () => {
   <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Did You collect The balance (if applicable)</p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <div style={{ display: "flex" }}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -2709,7 +2671,7 @@ const Mcq = () => {
           
 
           
-<form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+<form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -2726,7 +2688,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{ padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -2748,7 +2710,7 @@ const Mcq = () => {
         
 
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -2765,12 +2727,12 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" ,width:"550px"}}>
+<div style={{ padding: "10px"}}>
   <div style={{ display: "flex" }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
+  <form className="form w-100" style={{ padding: "25px" }}>
     <div style={{ display: "flex" }} />
     
     
@@ -2785,7 +2747,7 @@ const Mcq = () => {
           </form>
 
           
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -2797,12 +2759,11 @@ const Mcq = () => {
            
           </AccordionSummary>
 
-          <AccordionDetails>ting
-
+          <AccordionDetails>
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" ,width:"550px"}}>
+<div style={{ }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -2810,7 +2771,7 @@ const Mcq = () => {
   <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     
-    <p>Food & Beverage -Al Mabeet Rating</p>
+    <p>Food & Beverage - Tera Secca Rating</p>
    
                 <p>Comment:</p>
                 <textarea type="comment" id="name" name="name" required
@@ -2838,7 +2799,7 @@ const Mcq = () => {
           : null}
           </div>
           
-      < div style={{ border: "1px solid #b3b3cc", padding: "24px" }}>
+      < div style={{ }}>
 
 <div style={{ display: "flex" }}>
   {/* <input type="checkbox" onChange={handleCheckbox5Change} /> */}
@@ -2856,11 +2817,11 @@ const Mcq = () => {
 
 
 
-        {isButton4 === true ? <div><div style={{ border: "1px solid #b3b3cc", padding: "10px" }}>
+        {isButton4 === true ? <div><div style={{ padding: "10px" }}>
           <div style={{ display: "flex" }}>
           </div>
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -2874,12 +2835,12 @@ const Mcq = () => {
 
             <AccordionDetails>
            
-            <div style={{ border: "1px solid #b3b3cc", padding: "10px" }}>
+            <div style={{  padding: "10px" }}>
               <div style={{ display: "flex" }}>
               </div>
              
 
-              <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "20px" }}>
+              <form className="form w-100" style={{ padding: "20px" }}>
                 <div style={{ display: "flex" }} />
 
            
@@ -2893,7 +2854,7 @@ const Mcq = () => {
           </AccordionDetails>
 
           
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -2907,12 +2868,12 @@ const Mcq = () => {
 
           <AccordionDetails>
            
-           <div style={{ border: "1px solid #b3b3cc", padding: "10px" }}>
+           <div style={{  }}>
              <div style={{ display: "flex" }}>
              </div>
             
 
-             <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "20px" }}>
+             <form className="form w-100" style={{  }}>
                <div style={{ display: "flex" }} />
 
           
@@ -2929,7 +2890,7 @@ const Mcq = () => {
 
           
           
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{ }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -2946,12 +2907,12 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"500px" }}>
-  <div style={{ display: "flex" }}>
+<div style={{  }}>
+  <div style={{  }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "30px" }}>
+  <form className="form w-100" style={{ }}>
     <div style={{ display: "flex" }} />
     
     <label for="appt">Time of Visit</label>
@@ -2985,8 +2946,9 @@ const Mcq = () => {
 
 
 
-          
-{/* <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+
+
+          <form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -3003,50 +2965,15 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{   }}>
   <div style={{ display: "flex" }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
-    <div style={{ display: "flex" }} />
-    <p>Room Assigned </p>
-                <textarea id="w3review" name="w3review" rows="1" cols="50" />
-                </form>
-</div>
-</AccordionDetails>
-  
-          
-          </form> */}
-
-
-
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
-            <div style={{ display: "flex" }} />
-
-            <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel1a-content"
-            id="panel1a-header"
-          >
-            
-           
-          </AccordionSummary>
-
-          <AccordionDetails>
-
-
-<Typography> <input type="checkbox" />Question</Typography>
-
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
-  <div style={{ display: "flex" }}>
-  </div>
-
-
-  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
+  <form className="form w-100" style={{  }}>
     <div style={{ display: "flex" }} />
     <p> Where you greeted at the outlet within 30 seconds of your arrival?</p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <div style={{ display: "flex" }}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -3063,7 +2990,7 @@ const Mcq = () => {
 
 
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -3080,7 +3007,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{}}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -3088,7 +3015,7 @@ const Mcq = () => {
   <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Was the outlet Serving  A- la -Carte? </p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <div style={{ display: "flex" }}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -3101,7 +3028,7 @@ const Mcq = () => {
           </form>
 
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -3118,7 +3045,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -3134,7 +3061,7 @@ const Mcq = () => {
 
   
 
-<form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+<form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -3151,15 +3078,15 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
+  <form className="form w-100" style={{  }}>
     <div style={{ display: "flex" }} />
     <p>Was the Associate Knowledgeable About the menu?  </p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <div style={{ display: "flex"}}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -3174,7 +3101,7 @@ const Mcq = () => {
 
 
   
-<form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+<form className="form w-100" style={{ padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -3191,7 +3118,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"520px" }}>
+<div style={{  padding: "10px",width:"520px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -3215,7 +3142,7 @@ const Mcq = () => {
 
 
           
-<form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+<form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -3232,7 +3159,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"520px" }}>
+<div style={{padding: "10px",width:"520px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -3251,7 +3178,7 @@ const Mcq = () => {
 
 
   
-<form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+<form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -3268,7 +3195,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px" ,width:"520px"}}>
+<div style={{  }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -3305,11 +3232,11 @@ const Mcq = () => {
 
 
             
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{ }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+            
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -3322,7 +3249,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -3330,7 +3257,7 @@ const Mcq = () => {
   <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Was a check Presented? </p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <div style={{ display: "flex" }}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -3343,11 +3270,11 @@ const Mcq = () => {
           </form>
           
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{ padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -3360,15 +3287,15 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{ padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
+  <form className="form w-100" style={{ padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Were The Ordered Items matching with check? </p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <div style={{ display: "flex"}}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -3387,11 +3314,11 @@ const Mcq = () => {
 
 
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -3404,7 +3331,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -3422,11 +3349,11 @@ const Mcq = () => {
 
 
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -3439,15 +3366,15 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
 
   <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
-    <p style={{ color: "red" }}>Please Verify if the complete check is recorded in system? </p>
-    <div style={{ display: "flex", justifyContent: "end" }}></div>
+    <p style={{ color: "black" }}>Please Verify if the complete check is recorded in system? </p>
+    <div style={{ display: "flex"}}></div>
                 <input type="radio" id="html" name="fav_language" value="Yes" />
                 <label for="html">Yes</label>
                 <input type="radio" id="html" name="fav_language" value="No" />
@@ -3463,11 +3390,11 @@ const Mcq = () => {
           
           </form>
           
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{ padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+          
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -3480,7 +3407,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -3496,7 +3423,7 @@ const Mcq = () => {
   
           
           </form>
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -3513,7 +3440,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -3529,7 +3456,7 @@ const Mcq = () => {
           
           </form>
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{ padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -3546,7 +3473,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{ }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -3561,7 +3488,7 @@ const Mcq = () => {
   
           
           </form>
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -3578,7 +3505,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{ padding: "10px",width:"550px" }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -3592,7 +3519,7 @@ const Mcq = () => {
 </AccordionDetails>
   
   
-<form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+<form className="form w-100" style={{ }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -3609,7 +3536,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -3617,7 +3544,7 @@ const Mcq = () => {
   <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Did You collect The balance (if applicable)</p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <div style={{ display: "flex"}}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -3633,11 +3560,11 @@ const Mcq = () => {
           
 
           
-<form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+<form className="form w-100" style={{ }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -3650,7 +3577,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{ }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -3672,11 +3599,11 @@ const Mcq = () => {
         
 
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -3689,7 +3616,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" ,width:"550px"}}>
+<div style={{ }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -3709,11 +3636,11 @@ const Mcq = () => {
           </form>
 
           
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+          
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -3726,21 +3653,22 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" ,width:"550px"}}>
-  <div style={{ display: "flex" }}>
+<div style={{ }}>
+  <div style={{  }}>
   </div>
 
 
-  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
+  <form className="form w-100" style={{ }}>
     <div style={{ display: "flex" }} />
     
-    <p>Food & Beverage - Hayakoom Rating</p>
+    <p>Food & Beverage - Tera Secca Rating</p>
    
                 <p>Comment:</p>
                 <textarea type="comment" id="name" name="name" required
                   minlength="10" rows="1" cols="60" />
                    <input type="radio" id="html" name="fav_language" value="Yes" />
                 <label for="html">Yes</label>
+                
                 <input type="radio" id="html" name="fav_language" value="No" />
                 <label for="html">No</label>
                 
@@ -3762,11 +3690,10 @@ const Mcq = () => {
           : null}
           </div>
                
-      < div style={{ border: "1px solid #b3b3cc", padding: "24px" }}>
+      < div style={{ }}>
 
 <div style={{ display: "flex" }}>
-  {/* <input type="checkbox" onChange={handleCheckbox5Change} /> */}
-  {/* <div style={{ marginLeft: "10px" }}>Question</div> */}
+ 
   <input type="checkbox" /><p>section start</p>
 
 </div>
@@ -3779,15 +3706,15 @@ const Mcq = () => {
 
 
 
-{isButton5 === true ? <div><div style={{ border: "1px solid #b3b3cc", padding: "10px" }}>
+{isButton5 === true ? <div><div style={{  }}>
           <div style={{ display: "flex" }}>
           </div>
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{ }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -3797,7 +3724,7 @@ const Mcq = () => {
 
             <AccordionDetails>
            
-            <div style={{ border: "1px solid #b3b3cc", padding: "10px" }}>
+            <div style={{  }}>
               <div style={{ display: "flex" }}>
               </div>
              
@@ -3816,11 +3743,11 @@ const Mcq = () => {
           </AccordionDetails>
 
           
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -3830,8 +3757,8 @@ const Mcq = () => {
 
           <AccordionDetails>
            
-           <div style={{ border: "1px solid #b3b3cc", padding: "10px" }}>
-             <div style={{ display: "flex" }}>
+           <div style={{  }}>
+             <div style={{ }}>
              </div>
             
 
@@ -3852,11 +3779,11 @@ const Mcq = () => {
 
           
           
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{ }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+          
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -3869,7 +3796,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"500px" }}>
+<div style={{  }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -3908,12 +3835,14 @@ const Mcq = () => {
 
 
 
-          
-{/* <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+
+
+
+          <form className="form w-100" style={{  }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+            
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -3926,42 +3855,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
-  <div style={{ display: "flex" }}>
-  </div>
-
-
-  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
-    <div style={{ display: "flex" }} />
-    <p>Room Assigned </p>
-                <textarea id="w3review" name="w3review" rows="1" cols="50" />
-                </form>
-</div>
-</AccordionDetails>
-  
-          
-          </form> */}
-
-
-
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
-            <div style={{ display: "flex" }} />
-
-            <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel1a-content"
-            id="panel1a-header"
-          >
-            
-           
-          </AccordionSummary>
-
-          <AccordionDetails>
-
-
-<Typography> <input type="checkbox" />Question</Typography>
-
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{ }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -3969,7 +3863,7 @@ const Mcq = () => {
   <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p> Where you greeted at the outlet within 30 seconds of your arrival?</p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <div style={{ display: "flex" }}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -3986,11 +3880,11 @@ const Mcq = () => {
 
 
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -4003,7 +3897,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -4011,7 +3905,7 @@ const Mcq = () => {
   <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Was the outlet Serving  A- la -Carte? </p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <div style={{ display: "flex"}}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -4024,11 +3918,11 @@ const Mcq = () => {
           </form>
 
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{}}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+          
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -4041,7 +3935,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -4057,11 +3951,11 @@ const Mcq = () => {
 
   
 
-<form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+<form className="form w-100" style={{ }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+            
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -4074,7 +3968,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -4082,7 +3976,7 @@ const Mcq = () => {
   <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p>Was the Associate Knowledgeable About the menu?  </p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <div style={{ display: "flex" }}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -4097,11 +3991,11 @@ const Mcq = () => {
 
 
   
-<form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+<form className="form w-100" style={{ }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+            
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -4114,7 +4008,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"520px" }}>
+<div style={{}}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -4138,11 +4032,11 @@ const Mcq = () => {
 
 
           
-<form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+<form className="form w-100" style={{ }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -4155,7 +4049,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"520px" }}>
+<div style={{  }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -4174,11 +4068,11 @@ const Mcq = () => {
 
 
   
-<form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+<form className="form w-100" style={{  }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+         
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -4191,7 +4085,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px" ,width:"520px"}}>
+<div style={{ }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -4228,11 +4122,11 @@ const Mcq = () => {
 
 
             
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+          
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -4245,7 +4139,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -4253,7 +4147,7 @@ const Mcq = () => {
   <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Was a check Presented? </p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <div style={{ display: "flex" }}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -4266,11 +4160,11 @@ const Mcq = () => {
           </form>
           
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{ }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+            
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -4283,7 +4177,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{ }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -4291,7 +4185,7 @@ const Mcq = () => {
   <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Were The Ordered Items matching with check? </p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <div style={{ display: "flex" }}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -4310,11 +4204,11 @@ const Mcq = () => {
 
 
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+          
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -4327,7 +4221,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{}}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -4345,11 +4239,11 @@ const Mcq = () => {
 
 
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{ }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -4362,14 +4256,14 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  }}>
   <div style={{ display: "flex" }}>
   </div>
 
 
   <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
-    <p style={{ color: "red" }}>Please Verify if the complete check is recorded in system? </p>
+    <p style={{ color: "black" }}>Please Verify if the complete check is recorded in system? </p>
     <div style={{ display: "flex", justifyContent: "end" }}></div>
                 <input type="radio" id="html" name="fav_language" value="Yes" />
                 <label for="html">Yes</label>
@@ -4386,11 +4280,11 @@ const Mcq = () => {
           
           </form>
           
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -4403,7 +4297,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{  }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -4419,11 +4313,11 @@ const Mcq = () => {
   
           
           </form>
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+            
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -4436,7 +4330,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{ }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -4452,7 +4346,7 @@ const Mcq = () => {
           
           </form>
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{ }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
@@ -4469,7 +4363,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{}}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -4484,11 +4378,11 @@ const Mcq = () => {
   
           
           </form>
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{ }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+          
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -4501,7 +4395,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{ }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -4515,11 +4409,11 @@ const Mcq = () => {
 </AccordionDetails>
   
   
-<form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+<form className="form w-100" style={{  }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -4532,7 +4426,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{ }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -4540,7 +4434,7 @@ const Mcq = () => {
   <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p  >Did You collect The balance (if applicable)</p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <div style={{ display: "flex" }}>
       <input type="radio" id="html" name="fav_language" value="Yes" />
       <label stylefor="html">Yes</label>
       <input type="radio" id="html" name="fav_language" value="No" />
@@ -4556,11 +4450,11 @@ const Mcq = () => {
           
 
           
-<form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+<form className="form w-100" style={{ }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+          
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -4573,7 +4467,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
+<div style={{ }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -4595,11 +4489,11 @@ const Mcq = () => {
         
 
 
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -4612,7 +4506,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" ,width:"550px"}}>
+<div style={{ }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -4632,11 +4526,11 @@ const Mcq = () => {
           </form>
 
           
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{  }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+          
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -4649,7 +4543,7 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" ,width:"550px"}}>
+<div style={{ }}>
   <div style={{ display: "flex" }}>
   </div>
 
@@ -4687,8 +4581,7 @@ const Mcq = () => {
          < div style={{ border: "1px solid #b3b3cc", padding: "24px" }}>
 
 <div style={{ display: "flex" }}>
-  {/* <input type="checkbox" onChange={handleCheckbox5Change} /> */}
-  {/* <div style={{ marginLeft: "10px" }}>Question</div> */}
+ 
   <input type="checkbox" /><p>section start</p>
 
 </div>
@@ -4709,7 +4602,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+            
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -4742,7 +4635,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+            
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -4778,7 +4671,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+          
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -4830,39 +4723,7 @@ const Mcq = () => {
 
 
 
-          
-{/* <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
-            <div style={{ display: "flex" }} />
 
-            <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel1a-content"
-            id="panel1a-header"
-          >
-            
-           
-          </AccordionSummary>
-
-          <AccordionDetails>
-
-
-<Typography> <input type="checkbox" />Question</Typography>
-
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" }}>
-  <div style={{ display: "flex" }}>
-  </div>
-
-
-  <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
-    <div style={{ display: "flex" }} />
-    <p>Room Assigned </p>
-                <textarea id="w3review" name="w3review" rows="1" cols="50" />
-                </form>
-</div>
-</AccordionDetails>
-  
-          
-          </form> */}
 
 
 
@@ -4870,7 +4731,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+            
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -4912,7 +4773,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+            
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -4950,7 +4811,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+            
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -4983,7 +4844,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+            
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -5023,7 +4884,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -5064,7 +4925,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+            
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -5154,7 +5015,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -5192,7 +5053,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -5236,7 +5097,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+          
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -5271,7 +5132,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+          
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -5312,7 +5173,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+            
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -5345,7 +5206,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+            
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -5378,7 +5239,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+            
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -5410,7 +5271,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -5441,7 +5302,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -5482,7 +5343,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -5521,7 +5382,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -5558,7 +5419,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -5612,8 +5473,7 @@ const Mcq = () => {
       < div style={{ border: "1px solid #b3b3cc", padding: "24px" }}>
 
 <div style={{ display: "flex" }}>
-  {/* <input type="checkbox" onChange={handleCheckbox5Change} /> */}
-  {/* <div style={{ marginLeft: "10px" }}>Question</div> */}
+ 
   <input type="checkbox" /><p>section start</p>
 
 </div>
@@ -5634,7 +5494,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -5703,7 +5563,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -5763,7 +5623,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -5805,7 +5665,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+          
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -5843,7 +5703,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -5876,7 +5736,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+          
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -5916,7 +5776,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -5957,7 +5817,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -5993,7 +5853,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+            
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -6047,7 +5907,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -6085,7 +5945,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -6129,7 +5989,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+            
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -6164,7 +6024,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -6205,7 +6065,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+            
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -6238,7 +6098,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+            
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -6271,7 +6131,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -6303,7 +6163,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -6334,7 +6194,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -6375,7 +6235,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -6414,7 +6274,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -6451,7 +6311,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+            
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -6477,15 +6337,19 @@ const Mcq = () => {
                 <p>Comment:</p>
                 <textarea type="comment" id="name" name="name" required
                   minlength="10" rows="1" cols="60" />
+                  
                    <input type="radio" id="html" name="fav_language" value="Yes" />
+                 
                 <label for="html">Yes</label>
                 <input type="radio" id="html" name="fav_language" value="No" />
                 <label for="html">No</label>
+                <div style={{ display: "flex" }} />
                 
               
                 
   </form>
 </div>
+
 </AccordionDetails>
   
           
@@ -6505,8 +6369,7 @@ const Mcq = () => {
           < div style={{ border: "1px solid #b3b3cc", padding: "24px" }}>
     
     <div style={{ display: "flex" }}>
-      {/* <input type="checkbox" onChange={handleCheckbox5Change} /> */}
-      {/* <div style={{ marginLeft: "10px" }}>Question</div> */}
+     
       <input type="checkbox" /><p>section start</p>
     
     </div>
@@ -6527,7 +6390,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+                
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -6560,7 +6423,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+                
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -6598,7 +6461,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+               
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -6635,7 +6498,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+                
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -6672,7 +6535,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+              
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -6719,7 +6582,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+                
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -6750,7 +6613,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+                
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -6781,7 +6644,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+               
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -6821,7 +6684,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+               
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -6861,7 +6724,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+                
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -6902,7 +6765,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+              
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -6954,7 +6817,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+              
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -6985,7 +6848,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+               
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -7019,7 +6882,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -7063,7 +6926,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -7110,7 +6973,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -7146,7 +7009,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -7179,7 +7042,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -7237,8 +7100,7 @@ const Mcq = () => {
           < div style={{ border: "1px solid #b3b3cc", padding: "24px" }}>
     
     <div style={{ display: "flex" }}>
-      {/* <input type="checkbox" onChange={handleCheckbox5Change} /> */}
-      {/* <div style={{ marginLeft: "10px" }}>Question</div> */}
+     
       <input type="checkbox" /><p>section start</p>
     
     </div>
@@ -7258,7 +7120,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+               
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -7291,7 +7153,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+               
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -7329,7 +7191,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+              
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -7366,7 +7228,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+                
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -7403,7 +7265,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+               
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -7437,7 +7299,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+              
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -7488,7 +7350,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+              
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -7521,7 +7383,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -7568,7 +7430,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+          
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -7601,7 +7463,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+          
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -7659,8 +7521,7 @@ const Mcq = () => {
           < div style={{ border: "1px solid #b3b3cc", padding: "24px" }}>
     
     <div style={{ display: "flex" }}>
-      {/* <input type="checkbox" onChange={handleCheckbox5Change} /> */}
-      {/* <div style={{ marginLeft: "10px" }}>Question</div> */}
+     
       <input type="checkbox" /><p>section start</p>
     
     </div>
@@ -7680,7 +7541,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+               
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -7713,7 +7574,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+               
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -7751,7 +7612,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+              
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -7788,7 +7649,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+               
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -7825,7 +7686,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+              
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -7859,7 +7720,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+              
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -7911,7 +7772,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+                
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -7944,7 +7805,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -7991,7 +7852,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -8024,7 +7885,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+          
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -8082,8 +7943,7 @@ const Mcq = () => {
           < div style={{ border: "1px solid #b3b3cc", padding: "24px" }}>
     
     <div style={{ display: "flex" }}>
-      {/* <input type="checkbox" onChange={handleCheckbox5Change} /> */}
-      {/* <div style={{ marginLeft: "10px" }}>Question</div> */}
+     
       <input type="checkbox" /><p>section start</p>
     
     </div>
@@ -8103,7 +7963,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+                
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -8136,7 +7996,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+               
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -8178,7 +8038,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+               
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -8212,7 +8072,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+              
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -8264,7 +8124,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+                
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -8297,7 +8157,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+          
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -8343,7 +8203,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+          
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -8387,7 +8247,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -8429,7 +8289,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+          
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -8473,7 +8333,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -8506,7 +8366,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -8695,7 +8555,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+               
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -8737,7 +8597,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+              
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -8907,7 +8767,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+          
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -8940,7 +8800,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+          
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -9019,7 +8879,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+               
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -9052,7 +8912,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+               
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -9092,7 +8952,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+               
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -9130,7 +8990,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -9172,7 +9032,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+              
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -9218,7 +9078,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -9264,7 +9124,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -9308,7 +9168,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+            
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -9350,7 +9210,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -9635,7 +9495,7 @@ const Mcq = () => {
                 <div style={{ display: "flex" }} />
     
                 <AccordionSummary
-                // expandIcon={<ExpandMoreIcon />}
+                
                 aria-controls="panel1a-content"
                 id="panel1a-header"
               >
@@ -9728,7 +9588,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+          
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -9941,7 +9801,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -10189,7 +10049,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+          
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -10222,25 +10082,23 @@ const Mcq = () => {
 
   
 </div>
-
 </AccordionDetails>
   
-          
+      
 
           </form>
               
-
 
           <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+          
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
-            
-           
+          
+
           </AccordionSummary>
 
           <AccordionDetails>
@@ -10252,7 +10110,6 @@ const Mcq = () => {
   <div style={{ display: "flex" }}>
   </div>
 
-
   <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     <p style={{ color: "red" }} >Please Verify ,minibar consumption  is recorded in the system</p>
@@ -10263,7 +10120,7 @@ const Mcq = () => {
                 <label for="html">No</label>
   </form>
 
-  
+
   <p>Comment</p>
               <textarea rows="2" cols="50" name="comment" form="usrform"></textarea>
 </div>
@@ -10277,16 +10134,15 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+         
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
-            
-           
+          
+          
           </AccordionSummary>
 
           <AccordionDetails>
-
 
 <Typography> <input type="checkbox" />Question</Typography>
 
@@ -10312,13 +10168,12 @@ const Mcq = () => {
 </AccordionDetails>
   
           
-
           </form>
           <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+            
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -10359,7 +10214,7 @@ const Mcq = () => {
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+           
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -10390,11 +10245,11 @@ const Mcq = () => {
   
           
           </form>
-          <form className="form w-100" style={{ backgroundColor: "white", padding: "20px" }}>
+          <form className="form w-100" style={{}}>
             <div style={{ display: "flex" }} />
 
             <AccordionSummary
-            // expandIcon={<ExpandMoreIcon />}
+         
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -10407,16 +10262,15 @@ const Mcq = () => {
 
 <Typography> <input type="checkbox" />Question</Typography>
 
-<div style={{ border: "1px solid #b3b3cc", padding: "10px",width:"550px" ,width:"500px"}}>
-  <div style={{ display: "flex" }}>
+<div style={{ }}>
+  <div style={{ }}>
   </div>
-
 
   <form className="form w-100" style={{ backgroundColor: "#F5F5F0", padding: "25px" }}>
     <div style={{ display: "flex" }} />
     
     <p>Check-Out Rating</p>
-    <div style={{ display: "flex", justifyContent: "end" }}>
+    <div style={{ }}>
    
                 <p>Comment:</p>
                 <textarea type="comment" id="name" name="name" required
@@ -10426,8 +10280,7 @@ const Mcq = () => {
                 <input type="radio" id="html" name="fav_language" value="No" />
                 <label for="html">No</label>
                 
-          </div>    
-                
+          </div>     
   </form>
 </div>
 </AccordionDetails>
@@ -10438,22 +10291,14 @@ const Mcq = () => {
     
     
     </div>
-    
-  
               : null}
 
 
-
-
-
 </div>
-        
  
         
-        
       </div>
-  
-    
+
   
   );
 
